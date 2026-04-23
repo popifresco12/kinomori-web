@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "首页",
+    "story": "我们的故事",
+    "shop": "商店",
+    "contact": "联系我们",
+    "logo_sub": "亚洲厨房"
+  },
+  "meta": {
+    "home_title": "Kinomori — 亚洲厨房与冲浪生活 | 摩洛哥塔姆拉格特",
+    "story_title": "我们的故事 | Kinomori — 摩洛哥塔姆拉格特",
+    "shop_title": "商店 | Kinomori — 摩洛哥塔姆拉格特",
+    "contact_title": "联系我们 | Kinomori — 摩洛哥塔姆拉格特"
+  },
+  "hero": {
+    "subtitle": " nourishment & 海浪",
+    "title": "KINOMORI",
+    "location": "亚洲厨房与冲浪生活 — 摩洛哥塔姆拉格特",
+    "btn_shop": "探索商店",
+    "btn_story": "我们的故事"
+  },
+  "story": {
+    "heading": "始于巴塞罗那",
+    "p1": "她带着一只行李箱和满心的好奇来到巴塞罗那。他已经将这座城市视作自己的家——深夜的苦艾酒小馆、阳光普照的广场、对生活的无尽渴望。他们在同一家餐厅工作，虽然当时彼此还不认识。就在她第一天上班时，厨房里忙乱不堪，他们隔着一摞冒着热气的盘子四目相对。某种东西就这样碰撞在一起——如同地心引力般不可避免，又如午后的面粉尘埃般轻盈。",
+    "p2": "从那天起，他们形影不离。一个西班牙的灵魂和一颗中国的心，因为对味道的痴迷和对安静生活的不妥协而紧紧相连。他们一起离开地中海，穿越亚洲——在印度尼西亚的夜市大快朵颐，在中国的小巷里揉制手工拉面，在日本钻研拉面的艺术，围着滋滋作响的韩式烤肉桌直到凌晨。每一碗面都教给他们一些东西。每一位分享秘密食谱的奶奶都成为了家人。",
+    "p3": "但故事就像河流，终将汇入大海。一次冲浪之旅将他们带到了塔姆拉格特，大西洋的风吹走了他们所有的计划。原始的海岸线、这个摩洛哥小村庄的友善、海浪要求人们保持专注与谦逊的方式——一切都让他们觉得回到了家。于是他们扎下了根。",
+    "p4": "<strong>Kinomori</strong>是那段旅程的果实：她的传承、他的热情，以及沿途品尝的一切。在日语中，我们的名字意为<em>树之森</em>——提醒着人们，最强大的事物总是缓慢生长，并肩而立，带着耐心与光芒。",
+    "japanese_name": "木の森 — Kinomori",
+    "cta_heading": "我们在哪里",
+    "cta_text": "塔姆拉格特是摩洛哥大西洋沿岸一个由渔村转变而来的冲浪天堂，位于塔加祖特以南。Kinomori坐落在山丘与大海交汇之处——距离海浪步行仅五分钟，远离喧嚣，恍若隔世。"
+  },
+  "philosophy": {
+    "heading": "我们的理念",
+    "subheading": "三条指引我们烹饪、创造与生活的原则。",
+    "nature_title": "根植于自然",
+    "nature_text": "我们从当地的柏柏尔市场和附近农场采购食材，将日本和东南亚的烹饪技艺应用于摩洛哥令人惊叹的物产。一起生长的，就该一起呈现。",
+    "ocean_title": "从海洋到餐桌",
+    "ocean_text": "塔姆拉格特的渔民每天送来新鲜渔获。我们的菜单跟随潮汐，而非日历。当沙丁鱼群游过时，你可以在几小时内品尝到——简单、诚实、 glorious。",
+    "balance_title": "平衡高于一切",
+    "balance_text": "冲浪和瑜伽教会我们，最美好的事物发生在宁静之中。我们的空间专为放慢脚步而设计——让食物疗愈身心，让物品超越潮流。"
+  },
+  "shop": {
+    "heading": "商店",
+    "subheading": "我们喜爱的服装、必需品和物件——以对待每一碗面的同样用心制作或甄选。",
+    "filter_all": "全部",
+    "filter_clothing": "服装",
+    "filter_accessories": "配饰",
+    "filter_home": "家居装饰",
+    "filter_skincare": "护肤",
+    "filter_yoga": "瑜伽",
+    "filter_surf": "冲浪",
+    "btn_add": "加入购物车",
+    "featured_heading": "精选好物",
+    "featured_subheading": "一些心头好——更多惊喜在里面。"
+  },
+  "products": {
+    "linen_shirt": "Kinomori 亚麻衬衫",
+    "surf_tee": "原创冲浪T恤",
+    "tote": "编织市场手提袋",
+    "bracelet": "串珠手链",
+    "bowl": "塔加祖特陶瓷碗套装",
+    "candle": "塔姆拉格特日落香薰蜡烛",
+    "argan": "有机阿甘油",
+    "sunscreen": "天然锌防晒霜",
+    "yoga_mat": "软木瑜伽垫",
+    "yoga_block": "软木瑜伽砖",
+    "wax": "冲浪板蜡套装",
+    "sock": "手工编织板袜"
+  },
+  "categories": {
+    "clothing": "服装",
+    "accessories": "配饰",
+    "home": "家居装饰",
+    "skincare": "护肤",
+    "yoga": "瑜伽",
+    "surf": "冲浪"
+  },
+  "contact": {
+    "heading": "联系我们",
+    "subheading": "来尝一碗面、给我们留言，或者只是打个招呼。",
+    "address_label": "地址",
+    "address": "摩洛哥阿加迪尔-伊达乌塔纳内省塔姆拉格特",
+    "email_label": "电子邮件",
+    "phone_label": "电话 / WhatsApp",
+    "hours_label": "营业时间",
+    "hours": "周二至周日：9:00 – 21:00\n周一：休息",
+    "form_name": "姓名",
+    "form_email": "电子邮件",
+    "form_message": "留言",
+    "form_submit": "发送留言",
+    "whatsapp_btn": "WhatsApp 聊天",
+    "map_caption": "我们位于塔姆拉格特的中心——找那扇绿色的门。"
+  },
+  "cart": {
+    "title": "您的购物车",
+    "empty": "您的购物车是空的。",
+    "total": "合计",
+    "checkout": "通过 WhatsApp 下单",
+    "remove": "移除",
+    "qty": "数量",
+    "whatsapp_intro": "你好 Kinomori！我想订购：",
+    "whatsapp_thanks": "谢谢！"
+  },
+  "footer": {
+    "tagline": "大西洋沿岸的一家小厨房与商店，为懂得慢生活的人提供诚实的亚洲美食与精选好物。",
+    "visit": "来访",
+    "follow": "关注我们",
+    "crafted": "在塔姆拉格特用心打造。"
+  }
+}

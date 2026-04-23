@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-i18n-title="meta.shop_title">
+  <title>Shop | Kinomori — Tamraght, Morocco</title>
+  <meta name="description" content="Kinomori shop: clothing, accessories, home decor, skincare, yoga and surf gear from Tamraght, Morocco.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar"></nav>
+
+  <!-- ==================== PAGE HEADER ==================== -->
+  <header class="page-header">
+    <div>
+      <h1 data-i18n="shop.heading">The Shop</h1>
+      <p data-i18n="shop.subheading">Clothing, essentials, and objects we love — made or curated with the same care we put into every bowl.</p>
+    </div>
+  </header>
+
+  <!-- ==================== SHOP ==================== -->
+  <section class="section">
+    <div class="container">
+      <div class="shop-filters reveal">
+        <button class="filter-btn active" data-filter="all" data-i18n="shop.filter_all">All</button>
+        <button class="filter-btn" data-filter="clothing" data-i18n="shop.filter_clothing">Clothing</button>
+        <button class="filter-btn" data-filter="accessories" data-i18n="shop.filter_accessories">Accessories</button>
+        <button class="filter-btn" data-filter="home" data-i18n="shop.filter_home">Home Decor</button>
+        <button class="filter-btn" data-filter="skincare" data-i18n="shop.filter_skincare">Skincare</button>
+        <button class="filter-btn" data-filter="yoga" data-i18n="shop.filter_yoga">Yoga</button>
+        <button class="filter-btn" data-filter="surf" data-i18n="shop.filter_surf">Surf</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+        <!-- Clothing -->
+        <div class="product-card" data-category="clothing">
+          <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=600&fit=crop" alt="Kinomori Linen Shirt" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.clothing">Clothing</p>
+            <h4 class="product-name" data-i18n="products.linen_shirt">Kinomori Linen Shirt</h4>
+            <p class="product-price">450 MAD</p>
+            <button class="add-to-cart" data-id="c1" data-name="Kinomori Linen Shirt" data-price="450" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card" data-category="clothing">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop" alt="Original Surf Tee" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.clothing">Clothing</p>
+            <h4 class="product-name" data-i18n="products.surf_tee">Original Surf Tee</h4>
+            <p class="product-price">300 MAD</p>
+            <button class="add-to-cart" data-id="c2" data-name="Original Surf Tee" data-price="300" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Accessories -->
+        <div class="product-card" data-category="accessories">
+          <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&h=600&fit=crop" alt="Woven Market Tote" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.accessories">Accessories</p>
+            <h4 class="product-name" data-i18n="products.tote">Woven Market Tote</h4>
+            <p class="product-price">200 MAD</p>
+            <button class="add-to-cart" data-id="a1" data-name="Woven Market Tote" data-price="200" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card" data-category="accessories">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&h=600&fit=crop" alt="Beaded Bracelet" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.accessories">Accessories</p>
+            <h4 class="product-name" data-i18n="products.bracelet">Beaded Bracelet</h4>
+            <p class="product-price">150 MAD</p>
+            <button class="add-to-cart" data-id="a2" data-name="Beaded Bracelet" data-price="150" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Home Decor -->
+        <div class="product-card" data-category="home">
+          <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=600&fit=crop" alt="Taghazout Ceramic Bowl Set" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.home">Home Decor</p>
+            <h4 class="product-name" data-i18n="products.bowl">Taghazout Ceramic Bowl Set</h4>
+            <p class="product-price">350 MAD</p>
+            <button class="add-to-cart" data-id="h1" data-name="Taghazout Ceramic Bowl Set" data-price="350" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card" data-category="home">
+          <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&h=600&fit=crop" alt="Tamraght Sunset Candle" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.home">Home Decor</p>
+            <h4 class="product-name" data-i18n="products.candle">Tamraght Sunset Candle</h4>
+            <p class="product-price">250 MAD</p>
+            <button class="add-to-cart" data-id="h2" data-name="Tamraght Sunset Candle" data-price="250" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Skincare -->
+        <div class="product-card" data-category="skincare">
+          <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&h=600&fit=crop" alt="Organic Argan Face Oil" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.skincare">Skincare</p>
+            <h4 class="product-name" data-i18n="products.argan">Organic Argan Face Oil</h4>
+            <p class="product-price">280 MAD</p>
+            <button class="add-to-cart" data-id="s1" data-name="Organic Argan Face Oil" data-price="280" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card" data-category="skincare">
+          <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&h=600&fit=crop" alt="Natural Zinc Sunscreen" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.skincare">Skincare</p>
+            <h4 class="product-name" data-i18n="products.sunscreen">Natural Zinc Sunscreen</h4>
+            <p class="product-price">220 MAD</p>
+            <button class="add-to-cart" data-id="s2" data-name="Natural Zinc Sunscreen" data-price="220" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Yoga -->
+        <div class="product-card" data-category="yoga">
+          <img src="https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&h=600&fit=crop" alt="Cork Yoga Mat" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.yoga">Yoga</p>
+            <h4 class="product-name" data-i18n="products.yoga_mat">Cork Yoga Mat</h4>
+            <p class="product-price">600 MAD</p>
+            <button class="add-to-cart" data-id="y1" data-name="Cork Yoga Mat" data-price="600" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card" data-category="yoga">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=600&fit=crop" alt="Cork Yoga Block" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.yoga">Yoga</p>
+            <h4 class="product-name" data-i18n="products.yoga_block">Cork Yoga Block</h4>
+            <p class="product-price">180 MAD</p>
+            <button class="add-to-cart" data-id="y2" data-name="Cork Yoga Block" data-price="180" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Surf -->
+        <div class="product-card" data-category="surf">
+          <img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600&h=600&fit=crop" alt="Board Wax Kit" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.surf">Surf</p>
+            <h4 class="product-name" data-i18n="products.wax">Board Wax Kit</h4>
+            <p class="product-price">120 MAD</p>
+            <button class="add-to-cart" data-id="su1" data-name="Board Wax Kit" data-price="120" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card" data-category="surf">
+          <img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600&h=600&fit=crop" alt="Handwoven Board Sock" class="product-image">
+          <div class="product-info">
+            <p class="product-category" data-i18n="categories.surf">Surf</p>
+            <h4 class="product-name" data-i18n="products.sock">Handwoven Board Sock</h4>
+            <p class="product-price">400 MAD</p>
+            <button class="add-to-cart" data-id="su2" data-name="Handwoven Board Sock" data-price="400" data-i18n="shop.btn_add">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="contact" id="footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

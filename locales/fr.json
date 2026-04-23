@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "story": "Notre Histoire",
+    "shop": "Boutique",
+    "contact": "Contact",
+    "logo_sub": "Cuisine Asiatique"
+  },
+  "meta": {
+    "home_title": "Kinomori — Cuisine Asiatique & Surf | Tamraght, Maroc",
+    "story_title": "Notre Histoire | Kinomori — Tamraght, Maroc",
+    "shop_title": "Boutique | Kinomori — Tamraght, Maroc",
+    "contact_title": "Contact | Kinomori — Tamraght, Maroc"
+  },
+  "hero": {
+    "subtitle": "Nourriture & Vagues",
+    "title": "KINOMORI",
+    "location": "Cuisine Asiatique & Surf — Tamraght, Maroc",
+    "btn_shop": "Explorer la Boutique",
+    "btn_story": "Notre Histoire"
+  },
+  "story": {
+    "heading": "Un Début Barcelonnais",
+    "p1": "Elle est arrivée à Barcelone avec une seule valise et un cœur plein de curiosité. Lui avait déjà fait de la ville la sienne — ses <em>vermuterías</em> nocturnes, ses places baignées de soleil, son appétit infini pour la vie. Ils travaillaient dans le même restaurant, sans encore le savoir. Lors de son tout premier jour, alors que la cuisine bourdonnait du chaos du service, leurs yeux se croisèrent entre des assiettes fumantes. Quelque chose a cliqué — aussi inévitable que la gravité, aussi léger que la poussière de farine au soleil de l'après-midi.",
+    "p2": "Depuis ce jour, ils furent inséparables. Une âme espagnole et un cœur chinois, unis par une obsession pour la saveur et le refus de vivre en silence. Ensemble, ils ont quitté la Méditerranée et traversé l'Asie — dégustant dans les marchés nocturnes d'Indonésie, pétrissant des nouilles dans les ruelles de Chine, étudiant l'art du ramen au Japon, et se réunissant autour de tables de barbecue coréennes jusqu'aux petites heures. Chaque bol leur a appris quelque chose. Chaque grand-mère qui partageait une recette secrète est devenue famille.",
+    "p3": "Mais les histoires, comme les rivières, finissent par trouver leur océan. Un voyage de surf les amena à Tamraght, et le vent atlantique emporta chaque plan qu'ils pensaient avoir. La côte sauvage, la gentillesse de ce petit village marocain, la façon dont les vagues exigeaient présence et humilité — tout cela leur semblait comme chez eux. Alors ils ont pris racine.",
+    "p4": "<strong>Kinomori</strong> est le fruit de ce voyage : son héritage, son feu, et tout ce qu'ils ont goûté en chemin. En japonais, notre nom signifie <em>Forêt d'Arbres</em> — un rappel que les choses les plus fortes poussent lentement, côte à côte, avec patience et lumière.",
+    "japanese_name": "木の森 — Kinomori",
+    "cta_heading": "Où Nous Sommes",
+    "cta_text": "Tamraght est un petit village de pêche devenu paradis du surf sur la côte atlantique du Maroc, juste au sud de Taghazout. Kinomori se trouve là où la colline rencontre la mer — à cinq minutes à pied des vagues, à des années-lumière de la précipitation."
+  },
+  "philosophy": {
+    "heading": "Notre Philosophie",
+    "subheading": "Trois principes qui guident tout ce que nous cuisinons, créons et vivons.",
+    "nature_title": "Enracinés dans la Nature",
+    "nature_text": "Nous nous approvisionnons sur les marchés amazigh locaux et les fermes voisines, appliquant des techniques japonaises et d'Asie du Sud-Est aux incroyables produits du Maroc. Ce qui pousse ensemble, va ensemble.",
+    "ocean_title": "De l'Océan à l'Assiette",
+    "ocean_text": "Les pêcheurs de Tamraght livrent quotidiennement. Notre menu suit les marées, pas le calendrier. Quand les sardines passent, vous les goûtez en quelques heures — simplement, honnêtement, glorieusement.",
+    "balance_title": "L'Équilibre avant Tout",
+    "balance_text": "Le surf et le yoga nous ont appris que les meilleures choses arrivent dans le calme. Notre espace est conçu pour ralentir — pour des repas qui restaurent, et des objets qui survivent aux tendances."
+  },
+  "shop": {
+    "heading": "La Boutique",
+    "subheading": "Vêtements, essentiels et objets que nous aimons — fabriqués ou sélectionnés avec le même soin que nous mettons dans chaque bol.",
+    "filter_all": "Tout",
+    "filter_clothing": "Vêtements",
+    "filter_accessories": "Accessoires",
+    "filter_home": "Décoration",
+    "filter_skincare": "Soins",
+    "filter_yoga": "Yoga",
+    "filter_surf": "Surf",
+    "btn_add": "Ajouter au Panier",
+    "featured_heading": "De la Boutique",
+    "featured_subheading": "Quelques favoris — plus à l'intérieur."
+  },
+  "products": {
+    "linen_shirt": "Chemise en Lin Kinomori",
+    "surf_tee": "Tee Surf Original",
+    "tote": "Tote Tissé",
+    "bracelet": "Bracelet de Perles",
+    "bowl": "Set de Bols Céramique Taghazout",
+    "candle": "Bougie Coucher de Soleil Tamraght",
+    "argan": "Huile d'Argan Bio",
+    "sunscreen": "Crème Solaire Zinc Naturelle",
+    "yoga_mat": "Tapis de Yoga Liège",
+    "yoga_block": "Brique de Yoga Liège",
+    "wax": "Kit de Wax pour Planche",
+    "sock": "Housse de Planche Tissée Main"
+  },
+  "categories": {
+    "clothing": "Vêtements",
+    "accessories": "Accessoires",
+    "home": "Décoration",
+    "skincare": "Soins",
+    "yoga": "Yoga",
+    "surf": "Surf"
+  },
+  "contact": {
+    "heading": "Contact",
+    "subheading": "Passez pour un bol, envoyez-nous un message, ou dites simplement bonjour.",
+    "address_label": "Adresse",
+    "address": "Tamraght, Agadir-Ida Ou Tanane, Maroc",
+    "email_label": "Email",
+    "phone_label": "Téléphone / WhatsApp",
+    "hours_label": "Horaires",
+    "hours": "Mar — Dim: 9h00 – 21h00\nLun: Fermé",
+    "form_name": "Nom",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_submit": "Envoyer",
+    "whatsapp_btn": "Discuter sur WhatsApp",
+    "map_caption": "Nous sommes au cœur de Tamraght — cherchez la porte verte."
+  },
+  "cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide.",
+    "total": "Total",
+    "checkout": "Commander par WhatsApp",
+    "remove": "Retirer",
+    "qty": "Qté",
+    "whatsapp_intro": "Bonjour Kinomori! Je souhaite commander :",
+    "whatsapp_thanks": "Merci !"
+  },
+  "footer": {
+    "tagline": "Une petite cuisine et boutique sur la côte atlantique, servant une cuisine asiatique honnête et des objets sélectionnés pour ceux qui vivent lentement.",
+    "visit": "Visitez-nous",
+    "follow": "Suivez-nous",
+    "crafted": "Fabriqué avec soin à Tamraght."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "story": "Nuestra Historia",
+    "shop": "Tienda",
+    "contact": "Contacto",
+    "logo_sub": "Cocina Asiática"
+  },
+  "meta": {
+    "home_title": "Kinomori — Cocina Asiática & Surf | Tamraght, Marruecos",
+    "story_title": "Nuestra Historia | Kinomori — Tamraght, Marruecos",
+    "shop_title": "Tienda | Kinomori — Tamraght, Marruecos",
+    "contact_title": "Contacto | Kinomori — Tamraght, Marruecos"
+  },
+  "hero": {
+    "subtitle": "Nutrición y Olas",
+    "title": "KINOMORI",
+    "location": "Cocina Asiática & Surf — Tamraght, Marruecos",
+    "btn_shop": "Explorar Tienda",
+    "btn_story": "Nuestra Historia"
+  },
+  "story": {
+    "heading": "Un Comienzo Barcelonés",
+    "p1": "Ella llegó a Barcelona con una sola maleta y un corazón lleno de curiosidad. Él ya se había hecho de la ciudad — sus <em>vermuterías</em> nocturnas, sus plazas bañadas de sol, su apetito interminable por la vida. Trabajaron en el mismo restaurante, aunque aún no lo sabían. En su primer día, mientras la cocina vibraba con el caos del servicio, sus ojos se cruzaron entre pasos de platos humeantes. Algo encajó — tan inevitable como la gravedad, tan ligero como el polvo de harina al sol de la tarde.",
+    "p2": "Desde ese día fueron inseparables. Un alma española y un corazón chino, unidos por la obsesión por el sabor y la negativa a vivir en silencio. Juntos dejaron el Mediterráneo y partieron a través de Asia — comiendo en los mercados nocturnos de Indonesia, amasando noodles en los callejones de China, estudiando el arte del ramen en Japón, y reuniéndose alrededor de mesas de barbacoa coreana hasta altas horas. Cada cuenco les enseñó algo. Cada abuela que compartió una receta secreta se convirtió en familia.",
+    "p3": "Pero las historias, como los ríos, eventualmente encuentran su océano. Un viaje de surf los trajo a Tamraght, y el viento atlántico se llevó cada plan que creían tener. La costa salvaje, la amabilidad de este pequeño pueblo marroquí, la forma en que las olas exigían presencia y humildad — todo se sentía como en casa. Así que echaron raíces.",
+    "p4": "<strong>Kinomori</strong> es el fruto de ese viaje: su herencia, su fuego, y todo lo que probaron en el camino. En japonés, nuestro nombre significa <em>Bosque de Árboles</em> — un recordatorio de que las cosas más fuertes crecen despacio, lado a lado, con paciencia y luz.",
+    "japanese_name": "木の森 — Kinomori",
+    "cta_heading": "Dónde Estamos",
+    "cta_text": "Tamraght es un pequeño pueblo pesquero convertido en paraíso del surf en la costa atlántica de Marruecos, justo al sur de Taghazout. Kinomori se encuentra donde la colina se encuentra con el mar — a cinco minutos a pie de las olas, a un mundo de distancia del afán."
+  },
+  "philosophy": {
+    "heading": "Nuestra Filosofía",
+    "subheading": "Tres principios que guían todo lo que cocinamos, creamos y vivimos.",
+    "nature_title": "Arraigados en la Naturaleza",
+    "nature_text": "Nuestros ingredientes provienen de mercados amazigh locales y granjas cercanas, aplicando técnicas japonesas y del sudeste asiático a los increíbles productos de Marruecos. Lo que crece junto, va junto.",
+    "ocean_title": "Del Océano a la Mesa",
+    "ocean_text": "Los pescadores de Tamraght traen pesca fresca cada día. Nuestro menú sigue las mareas, no el calendario. Cuando las sardinas corren, las pruebas en horas — simplemente, honestamente, gloriosamente.",
+    "balance_title": "El Equilibrio sobre Todo",
+    "balance_text": "El surf y el yoga nos enseñaron que lo mejor sucede en la quietud. Nuestro espacio está diseñado para frenar — para comidas que restauran, y objetos que superan las tendencias."
+  },
+  "shop": {
+    "heading": "La Tienda",
+    "subheading": "Ropa, esenciales y objetos que amamos — hechos o seleccionados con el mismo cuido que ponemos en cada cuenco.",
+    "filter_all": "Todo",
+    "filter_clothing": "Ropa",
+    "filter_accessories": "Accesorios",
+    "filter_home": "Decoración",
+    "filter_skincare": "Cuidado de la Piel",
+    "filter_yoga": "Yoga",
+    "filter_surf": "Surf",
+    "btn_add": "Añadir al Carrito",
+    "featured_heading": "De la Tienda",
+    "featured_subheading": "Algunos favoritos — más dentro."
+  },
+  "products": {
+    "linen_shirt": "Camisa de Lino Kinomori",
+    "surf_tee": "Camiseta Surf Original",
+    "tote": "Bolsa de Mercado Tejida",
+    "bracelet": "Pulsera de Cuentas",
+    "bowl": "Set de Cuencos Cerámicos Taghazout",
+    "candle": "Vela Atardecer Tamraght",
+    "argan": "Aceite de Argán Orgánico",
+    "sunscreen": "Protector Solar de Zinc Natural",
+    "yoga_mat": "Esterilla de Yoga de Corcho",
+    "yoga_block": "Bloque de Yoga de Corcho",
+    "wax": "Kit de Cera para Tabla",
+    "sock": "Funda de Tabla Tejida a Mano"
+  },
+  "categories": {
+    "clothing": "Ropa",
+    "accessories": "Accesorios",
+    "home": "Decoración",
+    "skincare": "Cuidado de la Piel",
+    "yoga": "Yoga",
+    "surf": "Surf"
+  },
+  "contact": {
+    "heading": "Contacto",
+    "subheading": "Pasa por un cuenco, envíanos un mensaje, o simplemente saluda.",
+    "address_label": "Dirección",
+    "address": "Tamraght, Agadir-Ida Ou Tanane, Marruecos",
+    "email_label": "Email",
+    "phone_label": "Teléfono / WhatsApp",
+    "hours_label": "Horario",
+    "hours": "Mar — Dom: 9:00 – 21:00\nLun: Cerrado",
+    "form_name": "Nombre",
+    "form_email": "Email",
+    "form_message": "Mensaje",
+    "form_submit": "Enviar Mensaje",
+    "whatsapp_btn": "Chatear por WhatsApp",
+    "map_caption": "Estamos en el corazón de Tamraght — busca la puerta verde."
+  },
+  "cart": {
+    "title": "Tu Carrito",
+    "empty": "Tu carrito está vacío.",
+    "total": "Total",
+    "checkout": "Pedir por WhatsApp",
+    "remove": "Eliminar",
+    "qty": "Cant",
+    "whatsapp_intro": "¡Hola Kinomori! Me gustaría pedir:",
+    "whatsapp_thanks": "¡Gracias!"
+  },
+  "footer": {
+    "tagline": "Una pequeña cocina y tienda en la costa atlántica, sirviendo comida asiática honesta y productos seleccionados para quienes viven despacio.",
+    "visit": "Visítanos",
+    "follow": "Síguenos",
+    "crafted": "Hecho con cariño en Tamraght."
+  }
+}

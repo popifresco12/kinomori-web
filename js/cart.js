@@ -118,8 +118,10 @@ function renderCart() {
 
   if (!container) return;
 
+  const t = (key, fb) => (typeof I18N !== 'undefined' && I18N.t) ? I18N.t(key, fb) : fb;
+
   if (cart.length === 0) {
-    container.innerHTML = '<div class="cart-empty">Your cart is empty.</div>';
+    container.innerHTML = `<div class="cart-empty">${t('cart.empty', 'Your cart is empty.')}</div>`;
     if (totalEl) totalEl.textContent = '0 MAD';
     if (checkoutBtn) checkoutBtn.style.pointerEvents = 'none';
     return;
@@ -136,7 +138,7 @@ function renderCart() {
         <button class="qty-btn" onclick="updateQty('${item.id}', -1)">−</button>
         <span>${item.qty}</span>
         <button class="qty-btn" onclick="updateQty('${item.id}', 1)">+</button>
-        <button class="remove-item" onclick="removeFromCart('${item.id}')">Remove</button>
+        <button class="remove-item" onclick="removeFromCart('${item.id}')">${t('cart.remove', 'Remove')}</button>
       </div>
     </div>
   `).join('');
@@ -150,11 +152,12 @@ function renderCart() {
 
 function generateWhatsAppLink() {
   const phone = '212600000000'; // Placeholder — replace with real number
-  let text = 'Hello Kinomori! I would like to order:%0A%0A';
+  const t = (key, fb) => (typeof I18N !== 'undefined' && I18N.t) ? I18N.t(key, fb) : fb;
+  let text = encodeURIComponent(t('cart.whatsapp_intro', 'Hello Kinomori! I would like to order:')) + '%0A%0A';
   cart.forEach(item => {
     text += `- ${item.name} x${item.qty} = ${item.price * item.qty} MAD%0A`;
   });
-  text += `%0ATotal: ${getTotal()} MAD%0A%0AThank you!`;
+  text += `%0A${encodeURIComponent(t('cart.total', 'Total'))}: ${getTotal()} MAD%0A%0A${encodeURIComponent(t('cart.whatsapp_thanks', 'Thank you!'))}`;
   return `https://wa.me/${phone}?text=${text}`;
 }
 

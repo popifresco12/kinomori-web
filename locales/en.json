@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Home",
+    "story": "Our Story",
+    "shop": "Shop",
+    "contact": "Contact",
+    "logo_sub": "Asian Kitchen"
+  },
+  "meta": {
+    "home_title": "Kinomori — Asian Kitchen & Surf Life | Tamraght, Morocco",
+    "story_title": "Our Story | Kinomori — Tamraght, Morocco",
+    "shop_title": "Shop | Kinomori — Tamraght, Morocco",
+    "contact_title": "Contact | Kinomori — Tamraght, Morocco"
+  },
+  "hero": {
+    "subtitle": "Nourishment & Waves",
+    "title": "KINOMORI",
+    "location": "Asian Kitchen & Surf Life — Tamraght, Morocco",
+    "btn_shop": "Explore Shop",
+    "btn_story": "Our Story"
+  },
+  "story": {
+    "heading": "A Barcelonan Beginning",
+    "p1": "She arrived in Barcelona with a single suitcase and a heart full of curiosity. He had already made the city his own — its late-night <em>vermuterías</em>, its sun-drenched plazas, its endless appetite for life. They worked at the same restaurant, though they didn't know it yet. On her very first day, as the kitchen buzzed with the chaos of service, their eyes met across a pass of steaming plates. Something clicked — as inevitable as gravity, as light as flour dust in the afternoon sun.",
+    "p2": "From that day forward, they were inseparable. A Spanish soul and a Chinese heart, bound by an obsession with flavour and a refusal to live quietly. Together they left the Mediterranean behind and set out across Asia — eating their way through the night markets of Indonesia, kneading hand-pulled noodles in the backstreets of China, studying the art of ramen in Japan, and gathering around sizzling Korean barbecue tables until the early hours. Every bowl taught them something. Every grandmother who shared a secret recipe became family.",
+    "p3": "But stories, like rivers, eventually find their ocean. A surf trip brought them to Tamraght, and the Atlantic wind carried away every plan they thought they had. The raw coastline, the kindness of this small Moroccan village, the way the waves demanded presence and humility — it all felt like home. So they planted roots.",
+    "p4": "<strong>Kinomori</strong> is the fruit of that journey: her heritage, his fire, and everything they tasted along the way. In Japanese, our name means <em>Forest of Trees</em> — a reminder that the strongest things grow slowly, side by side, with patience and light.",
+    "japanese_name": "木の森 — Kinomori",
+    "cta_heading": "Where We Are",
+    "cta_text": "Tamraght is a small fishing village turned surf haven on Morocco's Atlantic coast, just south of Taghazout. Kinomori sits where the hillside meets the sea — a five-minute walk from the waves, a world away from hurry."
+  },
+  "philosophy": {
+    "heading": "Our Philosophy",
+    "subheading": "Three principles that guide everything we cook, create, and live.",
+    "nature_title": "Rooted in Nature",
+    "nature_text": "We source from local Amazigh markets and nearby farms, applying Japanese and Southeast Asian techniques to Morocco's incredible ingredients. What grows together, goes together.",
+    "ocean_title": "Ocean to Table",
+    "ocean_text": "Tamraght's fishermen deliver daily. Our menu follows the tides, not the calendar. When the sardines are running, you taste them within hours — simply, honestly, gloriously.",
+    "balance_title": "Balance Above All",
+    "balance_text": "Surfing and yoga taught us that the best things happen in stillness. Our space is designed for slowing down — for meals that restore, and objects that outlast trends."
+  },
+  "shop": {
+    "heading": "The Shop",
+    "subheading": "Clothing, essentials, and objects we love — made or curated with the same care we put into every bowl.",
+    "filter_all": "All",
+    "filter_clothing": "Clothing",
+    "filter_accessories": "Accessories",
+    "filter_home": "Home Decor",
+    "filter_skincare": "Skincare",
+    "filter_yoga": "Yoga",
+    "filter_surf": "Surf",
+    "btn_add": "Add to Cart",
+    "featured_heading": "From the Shop",
+    "featured_subheading": "A few favourites — more inside."
+  },
+  "products": {
+    "linen_shirt": "Kinomori Linen Shirt",
+    "surf_tee": "Original Surf Tee",
+    "tote": "Woven Market Tote",
+    "bracelet": "Beaded Bracelet",
+    "bowl": "Taghazout Ceramic Bowl Set",
+    "candle": "Tamraght Sunset Candle",
+    "argan": "Organic Argan Face Oil",
+    "sunscreen": "Natural Zinc Sunscreen",
+    "yoga_mat": "Cork Yoga Mat",
+    "yoga_block": "Cork Yoga Block",
+    "wax": "Board Wax Kit",
+    "sock": "Handwoven Board Sock"
+  },
+  "categories": {
+    "clothing": "Clothing",
+    "accessories": "Accessories",
+    "home": "Home Decor",
+    "skincare": "Skincare",
+    "yoga": "Yoga",
+    "surf": "Surf"
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "Drop by for a bowl, send us a message, or just say hello.",
+    "address_label": "Address",
+    "address": "Tamraght, Agadir-Ida Ou Tanane, Morocco",
+    "email_label": "Email",
+    "phone_label": "Phone / WhatsApp",
+    "hours_label": "Opening Hours",
+    "hours": "Tue — Sun: 9:00 – 21:00\nMon: Closed",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_submit": "Send Message",
+    "whatsapp_btn": "Chat on WhatsApp",
+    "map_caption": "We're in the heart of Tamraght — look for the green door."
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty.",
+    "total": "Total",
+    "checkout": "Order via WhatsApp",
+    "remove": "Remove",
+    "qty": "Qty",
+    "whatsapp_intro": "Hello Kinomori! I would like to order:",
+    "whatsapp_thanks": "Thank you!"
+  },
+  "footer": {
+    "tagline": "A small kitchen and shop on the Atlantic coast, serving honest Asian food and curated goods for people who live slowly.",
+    "visit": "Visit Us",
+    "follow": "Follow",
+    "crafted": "Crafted with care in Tamraght."
+  }
+}

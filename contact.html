@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta data-i18n-title="meta.contact_title">
+  <title>Contact | Kinomori — Tamraght, Morocco</title>
+  <meta name="description" content="Get in touch with Kinomori in Tamraght, Morocco. Visit us, send a message, or chat on WhatsApp.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar"></nav>
+
+  <!-- ==================== PAGE HEADER ==================== -->
+  <header class="page-header">
+    <div>
+      <h1 data-i18n="contact.heading">Get in Touch</h1>
+      <p data-i18n="contact.subheading">Drop by for a bowl, send us a message, or just say hello.</p>
+    </div>
+  </header>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="section contact-section">
+    <div class="container">
+      <div class="contact-grid-modern reveal">
+        <div class="contact-info-side">
+          <div class="contact-info-block" style="margin-bottom:2rem;">
+            <h4 data-i18n="contact.address_label">Address</h4>
+            <p data-i18n="contact.address">Tamraght, Agadir-Ida Ou Tanane, Morocco</p>
+          </div>
+          <div class="contact-info-block" style="margin-bottom:2rem;">
+            <h4 data-i18n="contact.email_label">Email</h4>
+            <a href="mailto:hello@kinomori.ma">hello@kinomori.ma</a>
+          </div>
+          <div class="contact-info-block" style="margin-bottom:2rem;">
+            <h4 data-i18n="contact.phone_label">Phone / WhatsApp</h4>
+            <a href="https://wa.me/212600000000" target="_blank">+212 600 000 000</a>
+          </div>
+          <div class="contact-info-block" style="margin-bottom:2rem;">
+            <h4 data-i18n="contact.hours_label">Opening Hours</h4>
+            <p data-i18n="contact.hours">Tue — Sun: 9:00 – 21:00<br>Mon: Closed</p>
+          </div>
+          <a href="https://wa.me/212600000000" target="_blank" class="whatsapp-cta" data-i18n="contact.whatsapp_btn">Chat on WhatsApp</a>
+        </div>
+
+        <div class="contact-form-side">
+          <form class="contact-form" action="mailto:hello@kinomori.ma" method="post" enctype="text/plain">
+            <label for="name" data-i18n="contact.form_name">Name</label>
+            <input type="text" id="name" name="name" required data-i18n-placeholder="contact.form_name">
+
+            <label for="email" data-i18n="contact.form_email">Email</label>
+            <input type="email" id="email" name="email" required data-i18n-placeholder="contact.form_email">
+
+            <label for="message" data-i18n="contact.form_message">Message</label>
+            <textarea id="message" name="message" required data-i18n-placeholder="contact.form_message"></textarea>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;" data-i18n="contact.form_submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="reveal" style="margin-top:3rem; text-align:center;">
+        <iframe
+          class="map-embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13746.5!2d-9.68!3d30.51!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb1f949df9eb8c5%3A0x71c135ce8f4f4c2f!2sTamraght!5e0!3m2!1sen!2sma!4v1700000000000"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p style="margin-top:1rem; font-size:0.85rem; color:var(--stone);" data-i18n="contact.map_caption">We're in the heart of Tamraght — look for the green door.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="contact" id="footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
