@@ -68,6 +68,24 @@ function updateCartCount() {
   }
 }
 
+function getProductImage(id) {
+  const map = {
+    'c1': 'images/products/linen-shirt.jpg',
+    'c2': 'images/products/surf-tee.jpg',
+    'a1': 'images/products/tote-bag.jpg',
+    'a2': 'images/products/bracelet.jpg',
+    'h1': 'images/products/ceramic-bowl.jpg',
+    'h2': 'images/products/candle.jpg',
+    's1': 'images/products/argan-oil.jpg',
+    's2': 'images/products/sunscreen.jpg',
+    'y1': 'images/products/yoga-mat.jpg',
+    'y2': 'images/products/yoga-block.jpg',
+    'su1': 'images/products/wax-kit.jpg',
+    'su2': 'images/products/board-sock.jpg',
+  };
+  return map[id] || '';
+}
+
 function getCategoryEmoji(name) {
   if (name.includes('Shirt') || name.includes('Tee')) return '👕';
   if (name.includes('Tote')) return '🧵';
@@ -109,7 +127,7 @@ function renderCart() {
 
   container.innerHTML = cart.map(item => `
     <div class="cart-item">
-      <div class="cart-item-image ${getCategoryClass(item.name)}">${getCategoryEmoji(item.name)}</div>
+      <img src="${getProductImage(item.id)}" alt="${item.name}" class="cart-item-image" style="width:60px;height:60px;object-fit:cover;border-radius:8px;">
       <div class="cart-item-details">
         <div class="cart-item-name">${item.name}</div>
         <div class="cart-item-price">${item.price} MAD</div>

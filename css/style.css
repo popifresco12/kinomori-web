@@ -514,11 +514,9 @@ ul {
 
 .product-image {
   height: 260px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  position: relative;
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .product-image.clothing { background: linear-gradient(135deg, #E6D5C3, #D4C4B0); }
