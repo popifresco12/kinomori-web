@@ -11,6 +11,51 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Landing page: no-scroll layout */
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    .hero {
+      flex: 1 1 auto;
+      min-height: unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 4rem;
+    }
+    .hero .scroll-indicator {
+      display: none;
+    }
+    footer.contact {
+      flex: 0 0 auto;
+      padding: 2.5rem 5%;
+    }
+    footer.contact .footer-grid {
+      gap: 2rem;
+    }
+    footer.contact .footer-brand h3 {
+      font-size: 1.3rem;
+    }
+    footer.contact h4 {
+      font-size: 0.7rem;
+      margin-bottom: 0.6rem;
+    }
+    footer.contact p,
+    footer.contact a {
+      font-size: 0.8rem;
+    }
+    footer.contact .footer-bottom {
+      padding-top: 1.2rem;
+      margin-top: 1.2rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -26,90 +71,6 @@
       <div class="hero-buttons">
         <a href="shop.html" class="btn btn-primary" data-i18n="hero.btn_shop">Explore Shop</a>
         <a href="story.html" class="btn btn-outline" data-i18n="hero.btn_story">Our Story</a>
-      </div>
-    </div>
-    <div class="scroll-indicator">
-      <span>Scroll</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-      </svg>
-    </div>
-  </section>
-
-  <!-- ==================== PHILOSOPHY ==================== -->
-  <section class="section philosophy" id="philosophy">
-    <div class="container">
-      <div class="section-header reveal">
-        <h2 data-i18n="philosophy.heading">Our Philosophy</h2>
-        <p data-i18n="philosophy.subheading">Three principles that guide everything we cook, create, and live.</p>
-      </div>
-      <div class="philo-grid">
-        <div class="philo-card reveal">
-          <div class="philo-icon">🌿</div>
-          <h3 data-i18n="philosophy.nature_title">Rooted in Nature</h3>
-          <p data-i18n="philosophy.nature_text">We source from local Amazigh markets and nearby farms, applying Japanese and Southeast Asian techniques to Morocco's incredible ingredients. What grows together, goes together.</p>
-        </div>
-        <div class="philo-card reveal">
-          <div class="philo-icon">🌊</div>
-          <h3 data-i18n="philosophy.ocean_title">Ocean to Table</h3>
-          <p data-i18n="philosophy.ocean_text">Tamraght's fishermen deliver daily. Our menu follows the tides, not the calendar. When the sardines are running, you taste them within hours — simply, honestly, gloriously.</p>
-        </div>
-        <div class="philo-card reveal">
-          <div class="philo-icon">☯️</div>
-          <h3 data-i18n="philosophy.balance_title">Balance Above All</h3>
-          <p data-i18n="philosophy.balance_text">Surfing and yoga taught us that the best things happen in stillness. Our space is designed for slowing down — for meals that restore, and objects that outlast trends.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== FEATURED SHOP ==================== -->
-  <section class="section" id="shop">
-    <div class="container">
-      <div class="section-header reveal">
-        <h2 data-i18n="shop.featured_heading">From the Shop</h2>
-        <p data-i18n="shop.featured_subheading">A few favourites — more inside.</p>
-      </div>
-      <div class="featured-preview">
-        <div class="products-grid reveal">
-          <div class="product-card" data-category="clothing">
-            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=600&fit=crop" alt="Kinomori Linen Shirt" class="product-image">
-            <div class="product-info">
-              <p class="product-category" data-i18n="categories.clothing">Clothing</p>
-              <h4 class="product-name" data-i18n="products.linen_shirt">Kinomori Linen Shirt</h4>
-              <p class="product-price">450 MAD</p>
-              <button class="add-to-cart" data-id="c1" data-name="Kinomori Linen Shirt" data-price="450" data-i18n="shop.btn_add">Add to Cart</button>
-            </div>
-          </div>
-          <div class="product-card" data-category="home">
-            <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=600&fit=crop" alt="Taghazout Ceramic Bowl Set" class="product-image">
-            <div class="product-info">
-              <p class="product-category" data-i18n="categories.home">Home Decor</p>
-              <h4 class="product-name" data-i18n="products.bowl">Taghazout Ceramic Bowl Set</h4>
-              <p class="product-price">350 MAD</p>
-              <button class="add-to-cart" data-id="h1" data-name="Taghazout Ceramic Bowl Set" data-price="350" data-i18n="shop.btn_add">Add to Cart</button>
-            </div>
-          </div>
-          <div class="product-card" data-category="skincare">
-            <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&h=600&fit=crop" alt="Organic Argan Face Oil" class="product-image">
-            <div class="product-info">
-              <p class="product-category" data-i18n="categories.skincare">Skincare</p>
-              <h4 class="product-name" data-i18n="products.argan">Organic Argan Face Oil</h4>
-              <p class="product-price">280 MAD</p>
-              <button class="add-to-cart" data-id="s1" data-name="Organic Argan Face Oil" data-price="280" data-i18n="shop.btn_add">Add to Cart</button>
-            </div>
-          </div>
-          <div class="product-card" data-category="surf">
-            <img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600&h=600&fit=crop" alt="Handwoven Board Sock" class="product-image">
-            <div class="product-info">
-              <p class="product-category" data-i18n="categories.surf">Surf</p>
-              <h4 class="product-name" data-i18n="products.sock">Handwoven Board Sock</h4>
-              <p class="product-price">400 MAD</p>
-              <button class="add-to-cart" data-id="su2" data-name="Handwoven Board Sock" data-price="400" data-i18n="shop.btn_add">Add to Cart</button>
-            </div>
-          </div>
-        </div>
-        <a href="shop.html" class="view-all-btn" data-i18n="hero.btn_shop">Explore Shop</a>
       </div>
     </div>
   </section>
