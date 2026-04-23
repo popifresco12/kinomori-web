@@ -12,26 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* ===== LANDING: Hero + Footer only, fits one screen ===== */
-    html {
-      height: 100%;
-    }
-    body {
-      min-height: 100dvh; /* dynamic viewport, accounts for mobile browser chrome */
-      display: flex;
-      flex-direction: column;
-      overflow-x: hidden;
-    }
-
-    /* Hero fills all available space, content centered */
+    /* ===== LANDING: Fullscreen hero, scroll to footer ===== */
     .hero {
-      flex: 1 1 auto;
-      min-height: unset;
+      height: 100dvh;
+      min-height: 100dvh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 5.5rem 5% 2.5rem; /* top clears fixed navbar */
+      padding: 5rem 5% 2rem;
       position: relative;
     }
     .hero .scroll-indicator {
@@ -45,158 +34,60 @@
     .hero-subtitle {
       font-family: 'Playfair Display', serif;
       font-style: italic;
-      font-size: clamp(0.95rem, 3vw, 1.4rem);
+      font-size: clamp(0.95rem, 3vw, 1.5rem);
       color: var(--sand);
       opacity: 0.85;
       margin-bottom: 0.2rem;
     }
     .hero-content h1 {
-      font-size: clamp(3.2rem, 11vw, 7rem);
+      font-size: clamp(3.5rem, 12vw, 8rem);
       line-height: 1.05;
       margin-bottom: 0.4rem;
     }
     .hero-location {
-      font-size: clamp(0.8rem, 2vw, 1rem);
+      font-size: clamp(0.85rem, 2.2vw, 1.1rem);
       max-width: 90%;
-      margin: 0 auto 1.2rem;
-      line-height: 1.35;
+      margin: 0 auto 1.5rem;
+      line-height: 1.4;
       opacity: 0.85;
     }
     .hero-buttons {
       display: flex;
-      gap: 0.8rem;
+      gap: 1rem;
       justify-content: center;
       flex-wrap: wrap;
     }
     .hero-buttons .btn {
-      padding: 0.65rem 1.6rem;
-      font-size: 0.8rem;
+      padding: 0.7rem 1.8rem;
+      font-size: 0.85rem;
     }
 
-    /* Footer: compact, sits at bottom */
+    /* Footer: normal flow below hero */
     footer.contact {
-      flex: 0 0 auto;
-      padding: 1.6rem 5%;
-    }
-    footer.contact .contact-grid {
-      display: grid;
-      grid-template-columns: 2fr 1.5fr 1fr;
-      gap: 1.5rem;
-      align-items: start;
-    }
-    footer.contact .contact-brand h3 {
-      font-size: 1.15rem;
-      margin-bottom: 0.25rem;
-    }
-    footer.contact .contact-brand p {
-      font-size: 0.78rem;
-      line-height: 1.45;
-      opacity: 0.8;
-    }
-    footer.contact h4 {
-      font-size: 0.65rem;
-      margin-bottom: 0.45rem;
-      letter-spacing: 0.12em;
-    }
-    footer.contact p,
-    footer.contact a {
-      font-size: 0.78rem;
-      line-height: 1.45;
-    }
-    footer.contact .footer-bottom {
-      padding-top: 0.9rem;
-      margin-top: 0.9rem;
-      font-size: 0.7rem;
-    }
-    footer.contact .social-icon svg {
-      width: 18px;
-      height: 18px;
+      padding: 4rem 5%;
     }
 
-    /* ===== TABLET ===== */
-    @media (max-width: 768px) {
-      footer.contact .contact-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-      }
-      footer.contact .contact-brand {
-        grid-column: 1 / -1;
-        text-align: center;
-      }
-    }
-
-    /* ===== MOBILE COMPACT ===== */
+    /* ===== MOBILE ===== */
     @media (max-width: 480px) {
       .hero {
-        padding: 5rem 5% 1.5rem;
+        padding: 4.5rem 5% 1.5rem;
       }
       .hero-content h1 {
-        font-size: clamp(2.8rem, 13vw, 4.5rem);
-        margin-bottom: 0.25rem;
+        font-size: clamp(3rem, 14vw, 5.5rem);
       }
       .hero-subtitle {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
       }
       .hero-location {
-        font-size: 0.78rem;
-        margin-bottom: 0.9rem;
+        font-size: 0.82rem;
+        margin-bottom: 1.2rem;
       }
       .hero-buttons .btn {
-        padding: 0.55rem 1.3rem;
-        font-size: 0.78rem;
+        padding: 0.6rem 1.5rem;
+        font-size: 0.82rem;
       }
       footer.contact {
-        padding: 1.2rem 5%;
-      }
-      footer.contact .contact-grid {
-        gap: 0.8rem;
-      }
-      footer.contact .contact-brand p {
-        font-size: 0.72rem;
-      }
-      footer.contact h4 {
-        font-size: 0.6rem;
-        margin-bottom: 0.35rem;
-      }
-      footer.contact a,
-      footer.contact p {
-        font-size: 0.72rem;
-      }
-      footer.contact .footer-bottom {
-        padding-top: 0.7rem;
-        margin-top: 0.7rem;
-      }
-    }
-
-    /* ===== VERY SHORT SCREENS (landscape phones) ===== */
-    @media (max-height: 550px) {
-      .hero {
-        padding-top: 4.2rem;
-        padding-bottom: 0.8rem;
-        justify-content: flex-start;
-      }
-      .hero-content h1 {
-        font-size: clamp(2.2rem, 9vh, 3.5rem);
-      }
-      .hero-subtitle {
-        font-size: 0.85rem;
-      }
-      .hero-location {
-        font-size: 0.75rem;
-        margin-bottom: 0.6rem;
-      }
-      .hero-buttons .btn {
-        padding: 0.5rem 1.2rem;
-        font-size: 0.75rem;
-      }
-      footer.contact {
-        padding: 0.9rem 5%;
-      }
-      footer.contact .contact-grid {
-        gap: 0.6rem;
-      }
-      footer.contact .contact-brand p {
-        display: none; /* hide tagline on very short screens */
+        padding: 2.5rem 5%;
       }
     }
   </style>
@@ -206,7 +97,7 @@
   <!-- Navbar injected by components.js -->
   <nav class="navbar" id="navbar"></nav>
 
-  <!-- ==================== HERO ==================== -->
+  <!-- ==================== HERO (fullscreen) ==================== -->
   <section class="hero" id="home">
     <div class="hero-content">
       <p class="hero-subtitle" data-i18n="hero.subtitle">Nourishment & Waves</p>
@@ -219,7 +110,7 @@
     </div>
   </section>
 
-  <!-- Footer injected by components.js -->
+  <!-- ==================== FOOTER (scroll down to see) ==================== -->
   <footer class="contact" id="footer"></footer>
 
   <script src="js/i18n.js"></script>
