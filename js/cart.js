@@ -70,18 +70,18 @@ function updateCartCount() {
 
 function getProductImage(id) {
   const map = {
-    'c1': 'images/products/linen-shirt.jpg',
-    'c2': 'images/products/surf-tee.jpg',
-    'a1': 'images/products/tote-bag.jpg',
-    'a2': 'images/products/bracelet.jpg',
-    'h1': 'images/products/ceramic-bowl.jpg',
-    'h2': 'images/products/candle.jpg',
-    's1': 'images/products/argan-oil.jpg',
-    's2': 'images/products/sunscreen.jpg',
-    'y1': 'images/products/yoga-mat.jpg',
-    'y2': 'images/products/yoga-block.jpg',
-    'su1': 'images/products/wax-kit.jpg',
-    'su2': 'images/products/board-sock.jpg',
+    'c1': 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=600&fit=crop',
+    'c2': 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop',
+    'a1': 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&h=600&fit=crop',
+    'a2': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&h=600&fit=crop',
+    'h1': 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=600&fit=crop',
+    'h2': 'https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&h=600&fit=crop',
+    's1': 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&h=600&fit=crop',
+    's2': 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&h=600&fit=crop',
+    'y1': 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&h=600&fit=crop',
+    'y2': 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=600&fit=crop',
+    'su1': 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600&h=600&fit=crop',
+    'su2': 'https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600&h=600&fit=crop',
   };
   return map[id] || '';
 }
